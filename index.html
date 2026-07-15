@@ -353,7 +353,7 @@
     /* ── CONTATO ── */
     .contact-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
       gap: 12px;
     }
 
@@ -361,10 +361,10 @@
       background: var(--surface);
       border: 0.5px solid var(--border-light);
       border-radius: var(--radius-lg);
-      padding: 1rem 1.25rem;
+      padding: 1.1rem 1.4rem;
       display: flex;
       align-items: center;
-      gap: 12px;
+      gap: 15px;
       text-decoration: none;
       transition: border-color 0.15s;
     }
@@ -393,8 +393,9 @@
       font-size: 13px;
       color: var(--text-primary);
       font-weight: 500;
-      word-break: break-all;
-      overflow-wrap: break-word;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+      word-break: normal;
     }
 
     /* ── FOOTER ── */
